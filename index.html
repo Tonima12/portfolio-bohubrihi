@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--favicon add-->
+    <link rel="shortcut icon" type="image/png" href="img/faviconlogo.png">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <!--css connet-->
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Welcome to my portfolio</title>
+
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <!--icon link-->
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+    <!--navbar section-->
+
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-container">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#Home">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#About">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Education">EDUCATION</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Project">PROJECT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">PORTFOLIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Gallery">GALLERY</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact form">CONTACT FORM</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="Profile" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">PROFILE</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#Edit Profile">Edit Profile</a></li>
+                        <li><a class="dropdown-item" href="#Change Password">Change Password</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#sign out">Sign out</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--banner section-->
+
+    <section class="banner-container container-fluid" id="Home">
+        <div class="row vh-100">
+            <div class="col-md-9 banner-column m-auto text-center text-black p-4 border-light">
+                <h1 class=" display-4 font-weight-bold">TANEMA AKTER</h1>
+                <h5>Student , Front-End Developer , Digital marketer & freelancer</h5>
+            </div>
+        </div>
+    </section>
+
+
+    <!--this is about secttion-->
+
+    <div class="about-container" id="About">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md-9 py-5 text-white">
+                    <h2>TANEMA AKTER</h2>
+                    <p>Student|Front End Developer|Digital marketer & freelancer</p>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni aspernatur, nesciunt porro
+                        inventore
+                        ut dolores illum rem accusantium eaque voluptatem minus. Voluptatum, sunt inventore distinctio
+                        nemo
+                        iusto temporibus voluptas quae.</p>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci magnam exercitationem
+                        consequatur
+                        ratione culpa, molestias necessitatibus porro totam corrupti natus, repellat possimus recusandae
+                        neque velit facilis ut, laborum accusamus quae delectus sequi. Explicabo dolores dolorem rem
+                        perferendis, blanditiis, soluta veniam distinctio quaerat animi enim praesentium aliquam? Sint
+                        ab
+                        impedit placeat!</p>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                    <img src="/img/img3.png" alt="tanema" class="img-fluid rounded-circle border border-light">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- this is education- sections -->
+
+    <div class="education-container" id="Education">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col py-5">
+                    <h2 class="circle-color-type font-weight-bolder">EDUCATION</h2>
+                </div>
+            </div>
+
+            <!-- card-firstpart -->
+            <div class="row py-4 my-4 align-items-center justify-content-center">
+                <div class="col-md 2 pb-3 mx-3">
+                    <div class="circle text-center text-white">
+                        <p class="py-5">Jan, 2012 <br>
+                            Dec,2015</p>
+                    </div>
+                </div>
+
+                <div class="col-md-10">
+                    <div class="card">
+                        <div class="card-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia ipsum rerum, doloremque
+                                velit omnis mollitia recusandae quasi? Et ipsam quia vel commodi accusantium similique?
+                                Deleniti labore soluta atque sed consequuntur officiis laborum aliquam aperiam
+                                reiciendis dolorum velit, dolorem magni praesentium tempore possimus veritatis et sint
+                                numquam corrupti! Perspiciatis quia suscipit non veniam laudantium maiores magnam
+                                exercitationem amet id ea? Quas. </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!--card-secondparts-->
+            <div class="row py-4 my-4 align-items-center justify-content-center">
+                <div class="col-md 2 pb-3 mx-3">
+                    <div class="circle text-center text-white">
+                        <p class="py-5">Jan, 2012 <br>
+                            Dec,2015</p>
+                    </div>
+                </div>
+
+                <div class="col-md-10">
+                    <div class="card">
+                        <div class="card-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia ipsum rerum, doloremque
+                                velit omnis mollitia recusandae quasi? Et ipsam quia vel commodi accusantium similique?
+                                Deleniti labore soluta atque sed consequuntur officiis laborum aliquam aperiam
+                                reiciendis dolorum velit, dolorem magni praesentium tempore possimus veritatis et sint
+                                numquam corrupti! Perspiciatis quia suscipit non veniam laudantium maiores magnam
+                                exercitationem amet id ea? Quas. </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- this is project section -->
+
+    <div class="project-container" id="Project">
+        <div class="container">
+            <div class="row">
+                <div class="col py-5">
+                    <h2 class="text-white text-center font-weight-bold">PROJECT</h2>
+                </div>
+            </div>
+
+            <div class="row  py-5">
+                <div class="col-md-3">
+                    <img src="/img/img3.png " class="img-fluid" alt=""><br>
+                    <a href="" class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem magnam
+                        eveniet laborum doloribus debitis quod.</a>
+                    <p>get more details</p>
+                </div>
+                <!-- 2nd pic  -->
+                <div class="col-md-3">
+                    <img src="/img/img3.png " class="img-fluid" alt=""><br>
+                    <a href="" class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem magnam
+                        eveniet laborum doloribus debitis quod.</a>
+                    <p>get more details</p>
+                </div>
+                <!-- 3rd pic  -->
+                <div class="col-md-3">
+                    <img src="/img/img3.png " class="img-fluid" alt=""><br>
+                    <a href="" class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem magnam
+                        eveniet laborum doloribus debitis quod.</a>
+                    <p>get more details</p>
+                </div>
+                <!-- 4th pic  -->
+                <div class="col-md-3">
+                    <img src="/img/img3.png " class="img-fluid" alt=""><br>
+                    <a href="" class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem magnam
+                        eveniet laborum doloribus debitis quod.</a>
+                    <p>get more details</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- this is portfolio section  -->
+
+    <div class="container" id="portfolio">
+        <div class="row py-5">
+            <div class="col text-center">
+                <h2 class="font-weight-bold circle-color-type ">PORTFOLIO</h2>
+            </div>
+        </div>
+
+        <!-- image part  -->
+        <div class="row py-5">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="/img/picture.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="/img/IMG.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="/img/pic.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row py-5">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="/img/IMG.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="/img/picture.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="/img/connected-technology.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- this is contact form part  -->
+    <div class="form-container" id="contact form">
+        <div class="container">
+            <div class="row py-5">
+                <div class="col text-white text-center m-auto">
+                    <h2 class="font-weight-bold text-white">It was a bumpy ride</h2>
+                    <p>But dream have a tendancy to play hard to get right?</p>
+                </div>
+            </div>
+
+            <div class="row py-4">
+
+                <div class="col-sm border m-1 text-center border-light text-white">
+                    <span style="font-size: 72px;">29</span>
+                    <h4>Failed attempts</h4>
+                </div>
+
+                <div class="col-sm border  m-1 text-center  border-light text-white">
+                    <span style="font-size: 72px;">49</span>
+                    <h4>Failed attempts</h4>
+                </div>
+
+                <div class="col-sm border  m-1 text-center  border-light text-white">
+                    <span style="font-size: 72px;">79</span>
+                    <h4>Failed attempts</h4>
+                </div>
+
+                <div class="col-sm border  m-1 text-center  border-light text-white">
+                    <span style="font-size: 72px;">59</span>
+                    <h4>Failed attempts</h4>
+                </div>
+            </div>
+
+            <!-- form section start  -->
+            <div class="row py-5">
+                <div class="col text-white text-center m-auto">
+                    <h2 class="font-weight-bold text-white">Get in touch</h2>
+                    <p>It can be totally stalked online.Give me a shout-out</p>
+                </div>
+            </div>
+
+            <div class="row pb-4">
+                <div class="col text-white">
+                    <h4>Shoot a message</h4>
+                </div>
+            </div>
+
+
+            <form action="back-end.php">
+                <div class="form-row pb-4">
+                    <div class="col py-3">
+                        <input type="text" class="form-control inner-form " placeholder="Your Name">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control inner-form" placeholder="Your Email">
+                    </div>
+
+                </div>
+
+                <div class="row pb-3">
+                    <div class="col">
+                        <textarea name="" class="form-control inner-form" id="" cols="30" rows="5"
+                            placeholder="Your message..."></textarea>
+                    </div>
+                </div>
+
+                <div class="row pb-5">
+                    <div class="col">
+                        <button class="btn circle-color text-white">Send messages</button>
+                    </div>
+                </div>
+
+
+            </form>
+
+        </div>
+    </div>
+
+
+    <!-- this is footer section  -->
+    <section>
+        <div class="footer">
+            <div class="container">
+                <div class="row py-5 ">
+                    <div class="col text-center text-white font-weight-bold">
+                        <em>"Work hard in silence,Let your success be your noise"</em><br>
+                        <p>Frank Ocean</p>
+                    </div>
+                </div>
+                <!-- pb=padding-bottom  -->
+                <div class="row pb-5">
+                    <div class="col text-center">
+                        <div class="icon">
+                            <i class="fa fa-facebook"></i>
+                        </div>
+
+                        <div class="icon">
+                            <i class="fa fa-github"></i>
+                        </div>
+
+                        <div class="icon">
+                            <i class="fa fa-youtube-play"></i>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="row pb-4">
+                    <div class="col text-center text-white">
+                        <p>&copy; All Right Reserved To Tanema Akter </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
